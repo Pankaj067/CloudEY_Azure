@@ -7,7 +7,7 @@ def hello_world():
 
 @app.route('/AI')
 def AIModule():
-    return render_template('Test.html')
+    return render_template('ForTesting.html')
 
 if __name__ == '__main__':
   app.run()
